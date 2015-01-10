@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Laufen"
+        android:id="@+id/walkButton"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="67dp"
+            android:text="Links"
+            android:id="@+id/leftButton"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="67dp"
+            android:text="Rechts"
+            android:id="@+id/rightButton"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Rückwärts"
+        android:id="@+id/backButton"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Tanzen"
+        android:id="@+id/danceButton"
+        android:layout_marginTop="10dp" />
+
+
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="1000"
+        android:paddingTop="40dp"
+        android:progress="0" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="1000"
+        android:paddingTop="40dp"
+        android:progress="0" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="1000"
+        android:paddingTop="40dp"
+        android:progress="500" />
+
+</LinearLayout>
